@@ -143,7 +143,6 @@ function FHEMPlatform(log, config) {
   this.filter = config["filter"];
 
   FHEM_startLongpoll(this.protocol, this.server, this.port, this.username, this.password, this.rejectUnauthorized);
-  console.log( "FHEM Platform init complete" );
 }
 
 function

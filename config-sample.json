@@ -37,6 +37,16 @@
             "port": "8005"
         },
         {
+            "platform": "FHEM",
+            "name": "FhemName",
+            "server": "127.0.0.1",
+            "port": "8083",
+        	"ssl": "true",
+        	"allowselfsignedcertificate": "true",
+            "username": "fhem",
+            "password": "fhempassword"
+        },
+        {
             "platform": "PhilipsHue",
             "name": "Phillips Hue",
             "username": ""
