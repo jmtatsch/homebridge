@@ -38,13 +38,11 @@
         },
         {
             "platform": "FHEM",
-            "name": "FhemName",
+            "name": "MyFhem",
             "server": "127.0.0.1",
             "port": "8083",
         	"ssl": "true",
-        	"allowselfsignedcertificate": "true",
-            "username": "fhem",
-            "password": "fhempassword"
+         	"auth": {"username": "fhem", "password": "fhemPassword"}
         },
         {
             "platform": "PhilipsHue",
